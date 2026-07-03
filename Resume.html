@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+  <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -8,7 +8,7 @@
 <style>
 body{
     font-family: Arial, sans-serif;
-    background:#f2f2f2;
+    background-color:#f0f2f5;
     margin:0;
     padding:20px;
 }
@@ -16,16 +16,16 @@ body{
 .container{
     width:850px;
     margin:auto;
-    background:#fff;
+    background:white;
     padding:25px;
     border-radius:10px;
-    box-shadow:0 0 10px rgba(0,0,0,0.2);
+    box-shadow:0 0 10px rgba(0,0,0,0.15);
 }
 
 .header{
     display:flex;
     align-items:center;
-    border-bottom:2px solid #ccc;
+    border-bottom:2px solid #ddd;
     padding-bottom:15px;
 }
 
@@ -34,8 +34,8 @@ body{
     height:170px;
     object-fit:cover;
     border-radius:10px;
-    border:2px solid #444;
-    margin-right:25px;
+    border:2px solid #2c3e50;
+    margin-right:20px;
 }
 
 .header h1{
@@ -44,7 +44,7 @@ body{
 }
 
 .header p{
-    margin:6px 0;
+    margin:5px 0;
 }
 
 .section{
@@ -52,31 +52,40 @@ body{
 }
 
 .section h2{
-    color:#2c3e50;
-    border-bottom:2px solid #ddd;
+    color:#34495e;
+    border-bottom:1px solid #ccc;
     padding-bottom:5px;
 }
 
+p{
+    color:#555;
+    line-height:1.6;
+}
+
 ul{
-    margin-top:8px;
+    color:#555;
+}
+
+li{
+    margin-bottom:8px;
 }
 
 table{
     width:100%;
     border-collapse:collapse;
-    margin-top:10px;
 }
 
 table,th,td{
-    border:1px solid #999;
+    border:1px solid #ccc;
 }
 
 th{
-    background:#eaeaea;
+    background:#f7f7f7;
 }
 
 th,td{
     padding:10px;
+    text-align:left;
 }
 
 .project-title{
@@ -86,12 +95,17 @@ th,td{
 
 .footer{
     text-align:center;
-    color:gray;
     margin-top:25px;
+    color:gray;
 }
+
 a{
-    text-decoration:none;
     color:#0066cc;
+    text-decoration:none;
+}
+
+a:hover{
+    text-decoration:underline;
 }
 </style>
 
@@ -101,54 +115,74 @@ a{
 
 <div class="container">
 
+<!-- Header -->
 <div class="header">
+
 <img src="1000052322.jpg" alt="Machavarapu Venkata Satya Tulasi">
 
 <div>
+
 <h1>Machavarapu Venkata Satya Tulasi</h1>
 
-<p><b>Phone:</b> 8885374911</p>
+<p><strong>Phone:</strong> 8885374911</p>
 
-<p><b>Email:</b>
+<p>
+<strong>Email:</strong>
 <a href="mailto:mvstulasi509@gmail.com">
 mvstulasi509@gmail.com
 </a>
 </p>
 
-<p><b>LinkedIn:</b>
+<p>
+<strong>LinkedIn:</strong>
 <a href="https://www.linkedin.com/in/machavarapu-venkata-satya-tulasi-5419a9371/" target="_blank">
-View Profile
+linkedin.com/in/machavarapu-venkata-satya-tulasi
 </a>
 </p>
 
 </div>
+
 </div>
 
+<!-- Professional Summary -->
+
 <div class="section">
+
 <h2>Professional Summary</h2>
 
 <p>
-Computer Science (AIML) student skilled in Python, C Programming, SQL,
-HTML, CSS and JavaScript with a strong interest in software development,
-Artificial Intelligence and problem solving. Passionate about learning
-modern technologies and building real-world applications.
+Motivated Computer Science and Engineering (Artificial Intelligence & Machine Learning)
+student with strong knowledge of Python, C Programming, SQL, HTML, CSS, and JavaScript.
+Passionate about Artificial Intelligence, Web Development, and Problem Solving.
+Experienced in developing real-world applications through hackathons and academic projects.
+A quick learner with excellent teamwork, leadership, and communication skills.
 </p>
 
 </div>
+
+<!-- Skills -->
 
 <div class="section">
 
 <h2>Technical Skills</h2>
 
 <ul>
-<li><b>Languages:</b> Python, C Programming, SQL</li>
-<li><b>Web Technologies:</b> HTML, CSS, JavaScript</li>
-<li><b>Tools:</b> VS Code, Git, GitHub</li>
-<li><b>Core CS Concepts:</b> Data Structures, DBMS</li>
-<li><b>Soft Skills:</b> Problem Solving, Adaptability, Leadership, Time Management</li>
+
+<li><strong>Programming Languages:</strong> Python, C Programming, SQL</li>
+
+<li><strong>Web Technologies:</strong> HTML, CSS, JavaScript</li>
+
+<li><strong>Tools:</strong> VS Code, Git, GitHub</li>
+
+<li><strong>Core Subjects:</strong> Data Structures, DBMS, OOPs</li>
+
+<li><strong>Soft Skills:</strong> Problem Solving, Leadership, Adaptability, Teamwork, Time Management</li>
+
 </ul>
 
 </div>
+
+<!-- Projects -->
 
 <div class="section">
 
@@ -158,30 +192,25 @@ modern technologies and building real-world applications.
 CrisisSync AI (SentinelSync) – Integrated Crisis Command Hub
 </p>
 
-<ul>
-<li>Developed a real-time emergency response platform using FastAPI and WebSockets.</li>
-
-<li>Integrated Firebase Realtime Database for live incident updates.</li>
-
-<li>Implemented Twilio API for automated emergency alert broadcasting.</li>
-
-</ul>
+<p>
+Developed a real-time emergency response platform using FastAPI and WebSockets.
+Integrated Firebase Realtime Database for live emergency updates and implemented
+Twilio API to send automated alerts and notifications.
+</p>
 
 <p class="project-title">
 Smart Waste Management Platform
 </p>
 
-<ul>
-
-<li>Developed a responsive municipal waste management platform using React.js and Tailwind CSS.</li>
-
-<li>Created dashboards for waste collection schedules and recycling metrics.</li>
-
-<li>Implemented React Context API for efficient state management.</li>
-
-</ul>
+<p>
+Developed a responsive waste management platform using React.js and Tailwind CSS.
+Created dashboards to monitor waste collection schedules and recycling statistics
+while implementing React Context API for state management.
+</p>
 
 </div>
+
+<!-- Education -->
 
 <div class="section">
 
@@ -196,26 +225,28 @@ Smart Waste Management Platform
 </tr>
 
 <tr>
-<td>B.Tech (CSE - AIML)</td>
-<td>Sasi Institute of Technology and Engineering</td>
-<td>CGPA: 8.3 (2024-Present)</td>
+<td>B.Tech (Computer Science & Engineering - AIML)</td>
+<td>SASI Institute of Technology and Engineering, Tadepalligudem</td>
+<td>8.5 SGPA</td>
 </tr>
 
 <tr>
-<td>Intermediate</td>
-<td>Update Your College Name</td>
-<td>Update Percentage</td>
+<td>Intermediate (MPC)</td>
+<td>Vikas Junior College, Ramachandrapuram</td>
+<td>94.2%</td>
 </tr>
 
 <tr>
 <td>SSC</td>
-<td>Update Your School Name</td>
-<td>Update CGPA</td>
+<td>Bhashyam English Medium School, Ramachandrapuram</td>
+<td>8.4 CGPA</td>
 </tr>
 
 </table>
 
 </div>
+
+<!-- Certifications -->
 
 <div class="section">
 
@@ -223,17 +254,23 @@ Smart Waste Management Platform
 
 <ul>
 
-<li>Earned 7+ certifications from CodeChef across C, Java and Competitive Programming.</li>
+<li>NPTEL Certification – Introduction to Internet of Things (IoT)</li>
 
-<li>Successfully completed NPTEL Certification in Internet of Things (IoT).</li>
+<li>Cambridge English Certification</li>
 
-<li>Successfully completed Cambridge Certification Program.</li>
+<li>CodeChef Certifications in C Programming</li>
 
-<li>Completed Robotics Workshop.</li>
+<li>CodeChef Certifications in Java Programming</li>
+
+<li>Competitive Programming Certifications from CodeChef</li>
+
+<li>Robotics Workshop Certificate</li>
 
 </ul>
 
 </div>
+
+<!-- Achievements -->
 
 <div class="section">
 
@@ -241,17 +278,19 @@ Smart Waste Management Platform
 
 <ul>
 
-<li>Achieved 500 difficulty rating on CodeChef.</li>
-
-<li>Completed all Practice C and Java tracks on CodeChef.</li>
-
 <li>Successfully participated in three college-level hackathons.</li>
 
-<li>Maintained a consistent CGPA of 8.3.</li>
+<li>Achieved 500 difficulty rating on CodeChef.</li>
+
+<li>Completed Practice C and Java learning tracks on CodeChef.</li>
+
+<li>Maintained an 8.5 SGPA in B.Tech.</li>
 
 </ul>
 
 </div>
+
+<!-- Footer -->
 
 <div class="footer">
 
